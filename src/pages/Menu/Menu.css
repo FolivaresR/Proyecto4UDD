@@ -1,0 +1,30 @@
+.menu-items {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 78vh;
+    }
+    
+    .menu-item {
+    background-color: beige;
+    width: 30%;
+    margin-bottom: 2rem;
+    text-align: center;
+    }
+    
+    .menu-item img {
+    margin-top: 30%;
+    height: 20vh; 
+    width: 100%;
+    max-width: 100px;
+    margin-bottom: 10px;
+    }
+    
+    .menu-item h3,
+    .menu-item p,
+    .menu-item span {
+    margin: 0;
+    }
+    
+    

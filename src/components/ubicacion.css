@@ -1,0 +1,28 @@
+.ubicacion-section {
+background-color: #FAD0C9; /* Color de fondo cálido, puedes cambiarlo por el color que prefieras */
+padding: 20px;
+text-align: center;
+color:white; /* Color de texto para resaltar en el fondo */
+}
+
+h2 {
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+p {
+color:white;
+font-size: 1.2em;
+margin-bottom: 10px;
+}
+
+ul {
+color: black;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+margin-bottom: 10px;
+}

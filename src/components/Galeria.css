@@ -1,0 +1,58 @@
+
+.galeria-container {
+    background-image: url('C:\Users\56930\Desktop\React-create-app\nombre-de-tu-proyecto\public\logogalleria.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.galeria-container {
+padding: 20px;
+height: 80vh;
+}
+
+.galeria-title {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.galeria-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.galeria-item {
+width: 300px;
+margin: 10px;
+background-color: #f5f5f5;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease;
+}
+
+.galeria-item:hover {
+transform: translateY(-5px);
+}
+
+.galeria-item img {
+width: 100%;
+height: auto;
+}
+
+.galeria-text {
+padding: 10px;
+}
+
+.galeria-text h3 { 
+color: black;
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+.galeria-text p {
+font-size: 14px;
+color:black;
+}
+h1 {
+    color:black;
+}

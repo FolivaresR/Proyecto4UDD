@@ -1,13 +1,12 @@
 import React from 'react';
+import './Footer.css';
 
 function Footer() {
-  return (
-    <footer className="footer">
-      <div className="container">
-        <span className="text-muted">© 2023 Mi Sitio Web. Todos los derechos reservados.</span>
-      </div>
-    </footer>
-  );
+return (
+<footer>
+    <p>© 2023 Restaurante XYZ. Todos los derechos reservados.</p>
+</footer>
+);
 }
 
 export default Footer;
