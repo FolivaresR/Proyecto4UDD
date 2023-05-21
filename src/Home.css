@@ -4,9 +4,10 @@ flex-grow: 1;
 text-align: center;
 padding: 20px;
 background-color: antiquewhite;
-height: 30vh;
 }
-
+.texto{
+    color: white;
+}
 h1 {
 color: white;
 font-size: 3em;
@@ -20,10 +21,10 @@ margin-bottom: 20px;
 }
 
 p {
+color:red;
 margin-bottom: 20px;
 }
 .container {
 display: flex;
 flex-direction: column;
-min-height: 100vh;
 }

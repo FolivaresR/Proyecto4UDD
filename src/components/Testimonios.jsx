@@ -1,9 +1,10 @@
 import React from 'react';
+import './testimonios.css';
 
 function Testimonios() {
 return (
     <section>
-    <h2>Testimonios</h2>
+    <h2 className='ubicacion'>Testimonios</h2>
     <ul>
         <li>
         <blockquote>

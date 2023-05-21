@@ -7,6 +7,7 @@ import Menu from './pages/Menu/Menu';
 import Galeria from './components/Galeria';
 import Reservations from './pages/Reservations/Reservations';
 import './App.css';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/Reservations" element={<Reservations />} />
       </Routes>
-      <div></div>
+      <div>
+      <Footer />
+      </div>
     </div>
   );
 }

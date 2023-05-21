@@ -10,7 +10,7 @@ const Home = () => {
                 <section>
                     <h1>Restaurant DyP</h1>
                     <img src="dadaxd.gif" alt="DyP" />
-                    <p>
+                    <p className='texto'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt nam quidem, quo alias neque, error
                         excepturi maiores cum, est magni et. Quae id explicabo praesentium suscipit ducimus incidunt impedit.
                     </p>
