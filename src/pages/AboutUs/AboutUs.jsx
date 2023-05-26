@@ -2,7 +2,7 @@ import './about.css';
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className='container'>
       <section>
         <h2>¡Bienvenidos a nuestro restaurante!</h2>
         <p>

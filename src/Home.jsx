@@ -8,7 +8,7 @@ const Home = () => {
         <div className="container">
             <main>
                 <section>
-                    <h1>Restaurant DyP</h1>
+                    <h1>Restaurante</h1>
                     <img src="dadaxd.gif" alt="DyP" />
                     <p className='texto'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. At sunt nam quidem, quo alias neque, error

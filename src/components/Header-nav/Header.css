@@ -1,70 +1,63 @@
-
+/* Estilos personalizados */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
+  background-color:black ;
+}
+
+.navbar {
   background-color: black;
 }
 
-nav {
+.navbar-brand {
   color: white;
-  display: flex;
-  align-items: center;
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.navbar-nav {
+  margin-left: auto;
 }
 
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color:white;
-  font-weight: bold;
-}
-
-.nav-toggle {
-  display: none;
-  background-color: #333333;
-  color: black;
+.navbar-toggler {
+  color: white;
   border: none;
-  padding: 10px;
-  cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none;
+}
+
+.nav-link {
+  color: white;
+  padding: 8px 16px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
     flex-direction: column;
+    background-color: black;
+    padding: 10px;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #333333;
-    padding: 10px;
+    transition: all 0.3s;
     opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    visibility: hidden;
+    z-index: 999;
   }
 
-  nav ul.show {
-    display: flex;
+  .navbar-collapse.show .navbar-nav {
     opacity: 1;
-    transform: translateY(0);
+    visibility: visible;
   }
 
-  nav li {
-    margin-bottom: 10px;
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: center;
   }
 
-  .nav-toggle {
+  .navbar-toggler {
     display: block;
   }
 }
