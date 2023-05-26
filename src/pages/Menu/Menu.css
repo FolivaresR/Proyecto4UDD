@@ -1,5 +1,7 @@
 .menu-items {
-    background-color: antiquewhite;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color:black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -7,15 +9,15 @@
     }
     
     .menu-item {
-    background-color: beige;
+    background-color:chocolate;
     width: 30%;
     margin-bottom: 2rem;
     text-align: center;
     }
     
     .menu-item img {
+    object-fit: contain;
     margin-top: 30%;
-    height: 20vh; 
     width: 100%;
     max-width: 100px;
     margin-bottom: 10px;
