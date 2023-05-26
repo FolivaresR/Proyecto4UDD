@@ -1,14 +1,19 @@
-import React, { useState } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Outlet, Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 
 function Header() {
     const [showMenu, setShowMenu] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     };
+
+    useEffect(() => {
+        setShowMenu(false);
+    }, [location]);
 
     return (
         <header>
@@ -25,6 +30,9 @@ function Header() {
                 </button>
                 <div className={`collapse navbar-collapse ${showMenu ? 'show' : ''}`} id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/"></Link>
+                        </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/AboutUs">AboutUs</Link>
                         </li>
